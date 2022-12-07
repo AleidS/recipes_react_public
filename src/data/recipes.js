@@ -27,8 +27,8 @@ export default[{
                             type: 'eggs',
                             
                         },
-                        {   quantity: 5,
-                            unit: 'dl',
+                        {   quantity: 500,
+                            unit: 'ml',
                             type: 'milk',
                             
                         },
