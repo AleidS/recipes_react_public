@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import styles from './App.module.css';
+import Main from './components/main'
+//Change url on click: https://reactrouter.com/en/v6.3.0/getting-started/tutorial
+//import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.App}>
+<div className={styles.background}></div> <div className={styles.glass}></div>
+         <Main/>
+
     </div>
   );
 }

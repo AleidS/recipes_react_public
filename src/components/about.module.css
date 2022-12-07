@@ -1,0 +1,81 @@
+.about{
+    width:100vw;
+    position:relative;
+    color:black;
+    font-size:1rem;
+    backdrop-filter:blur(2px);
+    padding:10px;
+    max-width:calc(min(600px,100vw));
+    margin:auto;
+    text-align:justify;
+    transform:translateX(0px);
+}
+/* .reactLogo{
+    float:left;
+    width:400px;
+    height:400px;
+    clip-path:circle(40%);
+    margin:-7%;
+    max-width:30vw;
+    max-height:30vw;
+    margin-right:-10px;
+
+} */
+.gears, .pen, .email, .reactLogo{
+    color:#5da36f;
+}
+.email, .reactLogo{
+float:left;
+font-size:20vw;
+font-size:clamp(10px,12rem,20vw);
+margin-right:12px;
+margin-left:-10px;
+margin-top:-0px;
+
+}
+.email{
+    font-size:clamp(10px,8rem,20vw);
+    margin-left:0px;
+}
+
+.gears, .pen{
+    float:right;
+    margin-right:-10px;
+    margin-left:12px;
+    margin-top:10px;
+    font-size:20vw;
+font-size:clamp(10px,12rem,20vw);
+margin-bottom:10px;
+}
+
+.about a{
+    color:green!important;
+}
+.about h2{
+    padding-bottom:7px!important;
+    border-bottom-left-radius:0px!important;
+    border-bottom-right-radius: 0px!important;
+    background-color:rgba(255, 255, 255, 0.855)!important;
+    border-bottom:1px solid green!important;
+    font-size:2rem!important;
+    font-size:clamp(10px, 2rem, 5vw)!important;
+    backdrop-filter:blur(2px);
+}
+h4{
+    margin-top:0px!important;
+    padding-top:10px!important;
+}
+p{
+    padding-top:10px;
+    position:relative;
+    padding-bottom:10px!important;
+    padding-right:20px;
+    padding-left:20px;
+    background-color:rgba(255, 255, 255, 0.905);
+    border-bottom-left-radius:10px!important;
+    border-bottom-right-radius:10px!important;
+}
+h4{
+    font-size:clamp(10px, 1.2rem,7vw)!important;
+    color:rgb(29, 79, 29);
+}
