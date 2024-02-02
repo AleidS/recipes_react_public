@@ -2,6 +2,8 @@
 
 This website demonstrates a responsive recipe website design in React.
 
+Made in Sept/Okt 2022, refactored in Feb. 2024
+
 Desktop
 
 ![1706842475721](image/README/1706842475721.png)
@@ -14,12 +16,9 @@ Recipe in mobile
 
 ![1706842589499](image/README/1706842589499.png)
 
-Made in Aug/Sept 2022, refactored in Feb. 2024
-
 (split code into smaller chunks, implemented react-router-dom so recipes can be accessed via URL parameters, cleaned up the database structure)
 
 To run this app locally, install node, open folder, then type npm start and navigate to localhost:3000/recipes
-
 
 # Getting Started with Create React App
 
