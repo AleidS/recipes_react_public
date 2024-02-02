@@ -20,6 +20,8 @@ Recipe in mobile
 
 To run this app locally, install node, open folder, then type npm start and navigate to localhost:3000/recipes
 
+This website works when hosted under a subfolder named 'recipes' on a domain
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
