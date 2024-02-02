@@ -1,80 +1,86 @@
-.counter{
-    color:white;
-    font-family:inter, sans-serif;
-    display:inline-flex;
-    border-radius:20px;
-    pointer-events:visible;
-    margin-left:-5px!important;
-    z-index:2;
-    margin-right:-15px!important;
+.counter {
+    color: white;
+    font-family: inter, sans-serif;
+    display: inline-flex;
+    border-radius: 20px;
+    pointer-events: visible;
+    margin-left: -5px !important;
+    z-index: 2;
+    margin-right: -15px !important;
 }
-@media screen and (max-width:300px){
-    .counter{
-      scale:0.8!important;
+
+@media screen and (max-width:300px) {
+    .counter {
+        scale: 0.8 !important;
     }
 }
+
 @media screen and (min-width:1200px) {
-    .counter{
-      position:absolute;
-      right:20px;
+    .counter {
+        position: absolute;
+        right: 20px;
     }
 }
-.numberOfPeople{
-    font-size:1.3rem!important;
-    font-size:clamp(12px,1.3rem,2vw)!important;
-    font-weight:normal;
-  }
-  
-.counterButton{
-    border:none;
-    background-color:rgb(157, 197, 169);
-    color:rgb(81, 20, 48);
-    color:rgb(90, 153, 84);
-    font-weight:600;
-    height:25px;
-    padding-bottom:2px;
-    line-height:0px;
-    align-self:center;
-    border-radius:100%;
-    width:25px;
-    font-size:1.5rem!important;
-    font-size:clamp(8px,1.5rem,10vw)!important;
-    max-width:7vw;
-    max-height:7vw;
-    overflow:hidden;
+
+.numberOfPeople {
+    font-size: 1.3rem !important;
+    font-size: clamp(12px, 1.3rem, 2vw) !important;
+    font-weight: normal;
 }
-.innerButton{
-    max-width:100%;
-    max-height:100%;
+
+.counterButton {
+    border: none;
+    background-color: rgb(157, 197, 169);
+    color: rgb(81, 20, 48);
+    color: rgb(90, 153, 84);
+    font-weight: 600;
+    height: 25px;
+    padding-bottom: 2px;
+    line-height: 0px;
+    align-self: center;
+    border-radius: 100%;
+    width: 25px;
+    font-size: 1.5rem !important;
+    font-size: clamp(8px, 1.5rem, 10vw) !important;
+    max-width: 7vw;
+    max-height: 7vw;
+    overflow: hidden;
+}
+
+.innerButton {
+    max-width: 100%;
+    max-height: 100%;
 
 }
-.numberOfPeople{
-    z-index:4;
-    margin-left:-5px;
-    margin-right:-5px;
-    text-align:center;
-    display:inline-block;
-    position:relative;
-    max-width:15vw;
-   white-space:no-wrap;
-    background-color:rgb(90, 153, 84);
-    border:0px solid white;
-    filter:drop-shadow(0px 0px 0px #ffffff);
-    line-height:80%;
-    padding-bottom:8px;
-    padding-top:8px;
-    padding-left:8px;
-    padding-right:8px;
-    border-radius:100%;
+
+.numberOfPeople {
+    z-index: 4;
+    margin-left: -5px;
+    margin-right: -5px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    max-width: 15vw;
+    white-space: no-wrap;
+    background-color: rgb(90, 153, 84);
+    border: 0px solid white;
+    filter: drop-shadow(0px 0px 0px #ffffff);
+    line-height: 80%;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 100%;
     word-spacing: 0px;
     font-family: 'Rubik Mono One', sans-serif;
     font-family: 'roboto', sans-serif;
-    font-weight:900;
-    white-space:nowrap;
+    font-weight: 900;
+    white-space: nowrap;
 }
-.nop{
-    max-width:100%;
-    font-size:1rem!important;
-    font-size:clamp(2px,1rem,4vw)!important;
-    white-space:no-wrap;
+
+.nop {
+    max-width: 100%;
+    font-size: 1rem !important;
+    font-size: clamp(2px, 1rem, 4vw) !important;
+    white-space: no-wrap;
 }

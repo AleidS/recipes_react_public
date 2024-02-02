@@ -1,7 +1,7 @@
 {
   "name": "hostinger-react",
   "version": "0.1.0",
-  "homepage":".",
+  "homepage": ".",
   "description": "my react application",
   "private": true,
   "dependencies": {
@@ -27,12 +27,13 @@
     "react-lazy-load-image-component": "^1.5.5",
     "react-native": "^0.69.5",
     "react-native-counters": "^1.2.0",
+    "react-router-dom": "^6.21.3",
     "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
